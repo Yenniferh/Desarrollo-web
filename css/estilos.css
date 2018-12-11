@@ -22,6 +22,7 @@ h1 strong{
 .project{
   border: 1px solid gray;
   border-radius: 10px; 
+  margin-bottom: 20px;
 }
 
 .project-details{
