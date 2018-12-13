@@ -36,8 +36,9 @@ h2{
 }
 
 .project {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   border-radius: 10px;
+  box-shadow: 3px 5px 15px #888888;
   margin-bottom: 15px;
   padding: 20px;
   background-color: white;
@@ -75,14 +76,20 @@ h2{
 
 .hero{
   height: 300px;
-  background-image: url(../images/hero.jpg);
+  /* background-image: url(../images/hero.jpg);
   background-size: 500px 300px;
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: right; */
   background-color: #1b2127;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
+
+.hero-image{
+  object-fit: cover;
+}
+
 
 /* gris oscuro = #1d252c
    gris claro = #626262
@@ -135,6 +142,7 @@ figure{
 
 .event-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .event-list-title {
@@ -145,6 +153,8 @@ figure{
   margin: 10px;
   width: 480px;
   background-color: #f4fbff;
+  box-shadow: 3px 5px 15px #888888;
+  border-radius: 10px;
 }
 
 .event img {
@@ -254,4 +264,14 @@ figure{
 
 .footer a{
   color: white;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
 }
