@@ -46,7 +46,7 @@ h2{
   justify-content: space-between;
 }
 
-.project-tittle {
+.project-title {
   font-size: 30px;
   margin-top: 0;
   margin-bottom: 10px;
@@ -131,6 +131,50 @@ figure{
   padding: 0 10px;
   display: flex;
   align-items: center;
+}
+
+.event-list {
+  display: flex;
+}
+
+.event-list-title {
+  margin: 20px;
+}
+
+.event {
+  margin: 10px;
+  width: 480px;
+  background-color: #f4fbff;
+}
+
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0; 
+}
+
+.event-detail{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-description {
+  text-align: left;
+}
+
+.event-url{
+  color: #026fff;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 5x; 
 }
 
 .footer{
